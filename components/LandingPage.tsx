@@ -128,7 +128,7 @@ export default function LandingPage({ notices, events }: LandingPageProps) {
                                 <div className="p-6">
                                     <div className="flex items-center justify-between mb-2">
                                         <span className="text-xs font-bold text-blue-400 px-2 py-1 bg-blue-900/30 rounded uppercase tracking-wider">Event</span>
-                                        <span className="text-xs text-gray-400 flex items-center"><Calendar className="w-3 h-3 mr-1" /> {new Date(event.date).toLocaleDateString()}</span>
+                                        <span className="text-xs text-gray-400 flex items-center"><Calendar className="w-3 h-3 mr-1" /> {new Date(event.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
                                     </div>
                                     <h3 className="text-xl font-bold text-white mb-2">{event.title}</h3>
                                     <p className="text-gray-400 text-sm mb-4 line-clamp-3">{event.description}</p>

@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    // Basic Next.js 14 config
+    output: 'export',
+    images: {
+        unoptimized: true
+    }
 };
 
 export default nextConfig;

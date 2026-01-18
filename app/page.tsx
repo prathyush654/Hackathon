@@ -1,13 +1,8 @@
 import LandingPage from "@/components/LandingPage"
-import { getNotices, getEvents } from "@/app/actions/admin"
+import { notices, events } from "@/lib/data"
 
-export const dynamic = 'force-dynamic'
 
-export default async function Page() {
-  const [notices, events] = await Promise.all([
-    getNotices(),
-    getEvents()
-  ])
 
+export default function Page() {
   return <LandingPage notices={notices} events={events} />
 }
