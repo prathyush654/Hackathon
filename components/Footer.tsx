@@ -13,15 +13,12 @@ export default function Footer() {
                             Innovate. Build. Win.
                         </p>
                     </div>
-                    <div className="flex space-x-6">
+                    <div className="flex space-x-6 mt-4 md:mt-0">
                         <Link href="#" className="text-gray-400 hover:text-white text-sm">
                             Privacy Policy
                         </Link>
                         <Link href="#" className="text-gray-400 hover:text-white text-sm">
                             Terms of Service
-                        </Link>
-                        <Link href="/admin" className="text-gray-600 hover:text-gray-400 text-sm">
-                            Admin Login
                         </Link>
                     </div>
                 </div>

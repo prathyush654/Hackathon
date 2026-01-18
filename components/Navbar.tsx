@@ -54,7 +54,7 @@ export default function Navbar() {
             </div>
 
             {isOpen && (
-                <div className="md:hidden bg-black/95">
+                <div className="md:hidden bg-black/95 border-b border-white/10 backdrop-blur-xl">
                     <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                         {navLinks.map((link) => (
                             <Link
@@ -66,7 +66,7 @@ export default function Navbar() {
                                 {link.name}
                             </Link>
                         ))}
-                        <Link href="/register" onClick={() => setIsOpen(false)} className="block w-full mt-4">
+                        <Link href="/register" onClick={() => setIsOpen(false)} className="block w-full mt-4 pb-2">
                             <Button className="w-full bg-blue-600 hover:bg-blue-700 text-white">Register Now</Button>
                         </Link>
                     </div>

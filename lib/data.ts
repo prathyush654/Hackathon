@@ -21,7 +21,7 @@ export const events = [
         description: "Kickoff event with keynote speakers and hackathon details.",
         date: new Date('2024-02-15T09:00:00'),
         location: "Main Auditorium",
-        imageUrl: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2670&auto=format&fit=crop"
+        imageUrl: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2070&auto=format&fit=crop"
     },
     {
         id: 2,
@@ -29,7 +29,7 @@ export const events = [
         description: "Start of the 24-hour coding marathon.",
         date: new Date('2024-02-15T11:00:00'),
         location: "Innovation Hub",
-        imageUrl: "https://images.unsplash.com/photo-1504384308090-c54be3855833?q=80&w=2574&auto=format&fit=crop"
+        imageUrl: "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?q=80&w=2070&auto=format&fit=crop"
     },
     {
         id: 3,
@@ -37,7 +37,7 @@ export const events = [
         description: "Get guidance from industry experts.",
         date: new Date('2024-02-15T14:00:00'),
         location: "Breakout Room A",
-        imageUrl: "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?q=80&w=2670&auto=format&fit=crop"
+        imageUrl: "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2070&auto=format&fit=crop"
     }
 ];
 

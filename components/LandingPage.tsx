@@ -44,13 +44,13 @@ export default function LandingPage({ notices, events }: LandingPageProps) {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.8 }}
                     >
-                        <h2 className="text-blue-400 font-bold tracking-widest uppercase mb-4 text-sm md:text-base">IEEE Computer Society & SYP Activities</h2>
-                        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-blue-100 to-blue-200 glow-text">
+                        <h2 className="text-blue-400 font-bold tracking-widest uppercase mb-4 text-xs md:text-base">IEEE Computer Society & SYP Activities</h2>
+                        <h1 className="text-4xl md:text-7xl font-extrabold tracking-tight mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-blue-100 to-blue-200 glow-text px-2">
                             INNOVATE . BUILD . WIN
                         </h1>
-                        <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
+                        <p className="text-lg md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto px-4">
                             Build the Future: IEEE Innovation Hackathon <br />
-                            <span className="text-base text-gray-400 mt-2 block">Smart sustainable solution for everyday life. Join us for a day of high-impact problem-solving with AI.</span>
+                            <span className="text-sm md:text-base text-gray-400 mt-2 block">Smart sustainable solution for everyday life. Join us for a day of high-impact problem-solving with AI.</span>
                         </p>
 
                         <div className="flex flex-col md:flex-row justify-center items-center gap-4 mb-12">
