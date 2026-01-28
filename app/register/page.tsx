@@ -23,7 +23,11 @@ export default function RegisterPage() {
                     </p>
 
                     <Button asChild className="w-full bg-blue-600 hover:bg-blue-700 text-white text-lg py-6">
-                        <Link href="https://forms.google.com/your-form-url" target="_blank" rel="noopener noreferrer">
+                        <Link
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSdaRwv89-NLhFFQuK8PmU_hgRd-_hs-VP46nXspDxRLPknaFw/viewform"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                             Go to Registration Form
                         </Link>
                     </Button>
