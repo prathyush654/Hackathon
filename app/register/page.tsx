@@ -33,7 +33,7 @@ export default function RegisterPage() {
                     </Button>
 
                     <p className="text-xs text-gray-500 mt-4">
-                        If you have any issues, please contact us at <a href="mailto:support@example.com" className="underline text-blue-400">support@example.com</a>
+                        If you have any issues, please contact us at <a href="mailto:psuresh@my.bridgeport.edu" className="underline text-blue-400">psuresh@my.bridgeport.edu</a>
                     </p>
                 </div>
             </motion.div>
